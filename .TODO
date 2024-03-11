@@ -1,0 +1,23 @@
+# PORT
+PORT=3000
+
+# DATABASE
+DATABASE_URL= postgresql://onoja123:ZRNIKkHG9L8A@ep-rough-base-74114338.us-east-2.aws.neon.tech/neondb?sslmode=require
+
+# TOKEN
+JWT_SECRETS=inventory_secret
+
+# LOG
+LOG_FORMAT=dev
+LOG_DIR=../logs
+
+# CORS
+ORIGIN=*
+CREDENTIALS=true
+
+# EMAIL
+MAIL_USER='okpeonoja18@gmail.com'
+MAIL_PASSWORD='ZTL3jvUmNyRP2c6Q'
+MAIL_HOST='smtp-relay.brevo.com'
+DEFAULT_EMAIL_PROVIDER=587
+MAIL_SENDER=Your Name <test@gmail.com>
